@@ -26,6 +26,8 @@ node {
     stage('maven package') { 
     sh 'mvn package'
     
+	}
+	
 	stage('maven deploye') { 
     sh 'mvn deploye'
 	
