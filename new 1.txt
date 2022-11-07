@@ -7,7 +7,7 @@
         
     
     stage('maven version') {
-        bat '''mvn version'''
+        bat '''mvn --version'''
     }
 
     stage') ('maven clean') {
